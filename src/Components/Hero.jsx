@@ -5,7 +5,7 @@ import bannerImage from "/images/banner-img.png"
 const Hero = () => {
     return (
         <>
-            <section className="relative bg-gray w-full pt-10 pb-10 pl-5 pr-5">
+            <section className="relative bg-gray w-full pt-10  pl-5 pr-5">
                 <div className="hidden md:block">
                     <img src={bannerLeftTop} alt="" className="absolute top-0 left-0" />
                 </div>

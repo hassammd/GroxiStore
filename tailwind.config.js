@@ -8,6 +8,11 @@ export default {
         primary: "#9fcb22",
         green: "#14462e",
         gray: "#F1F3F0",
+        PaleRobin: "#91ddd8",
+        orange: "#f9901e",
+        lightGreen: "#abdb23",
+        grayColor: "#f6fafb",
+        yellowColor: "#fccc42",
       },
       fontFamily: {
         barlow: "Barlow",

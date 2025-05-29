@@ -1,4 +1,6 @@
+import CategorySection from "../Components/categorySection"
 import Hero from "../Components/Hero"
+import TrendingProducts from "../Components/TrendingProducts"
 
 const Home = () => {
     return (
@@ -7,6 +9,8 @@ const Home = () => {
 
 
             <Hero />
+            <CategorySection />
+            <TrendingProducts />
 
         </>
     )
