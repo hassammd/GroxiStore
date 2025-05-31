@@ -19,7 +19,7 @@ const TrendingProducts = () => {
                     <div className="flex flex-wrap gap-[30px]  w-full justify-center md:justify-start ">
 
 
-                        <div className="relative bg-grayColor md:w-[31.55%] w-[100%]  flex flex-col   items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
+                        <div className="relative bg-grayColor md:w-[48%] lg:w-[31.3%] sm:w-[47%] w-[100%]  flex flex-col   items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
                             <div>
                                 <span className="absolute top-[20px] right-[20px] bg-white h-[32px] w-[32px] flex items-center justify-center  rounded-full group-hover:bg-lightGreen transition-all duration-500   "><FontAwesomeIcon icon={faHeart} className="group-hover:text-white" /></span>
                             </div>
@@ -44,11 +44,11 @@ const TrendingProducts = () => {
                                     <span className="text-lightGreen text-[20px] font-bold">$12</span>
 
                                 </div>
-                                <button class="bg-green font-barlow pt-2 pb-2 pl-8 pr-8 text-white font-barlow uppercase group-hover:bg-lightGreen transition-all duration-500">Add to cart</button>
+                                <button class="bg-green pt-2 pb-2 pl-8 pr-8 text-white font-barlow uppercase group-hover:bg-lightGreen transition-all duration-500">Add to cart</button>
                             </div>
 
                         </div>
-                        <div className="relative bg-grayColor md:w-[31.55%] w-[100%]   flex  flex-col  items-center col md:items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
+                        <div className="relative bg-grayColor md:w-[48%] lg:w-[31.3%] sm:w-[47%] w-[100%]   flex  flex-col  items-center col md:items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
                             <div>
                                 <span className="absolute top-[20px] right-[20px] bg-white h-[32px] w-[32px] flex items-center justify-center  rounded-full group-hover:bg-lightGreen transition-all duration-500   "><FontAwesomeIcon icon={faHeart} className="group-hover:text-white" /></span>
                             </div>
@@ -77,7 +77,7 @@ const TrendingProducts = () => {
                             </div>
 
                         </div>
-                        <div className="relative bg-grayColor md:w-[31.55%]  w-[100%]   flex  flex-col  items-center col md:items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
+                        <div className="relative bg-grayColor md:w-[48%] lg:w-[31.3%] sm:w-[47%] w-[100%]   flex  flex-col  items-center col md:items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
                             <div>
                                 <span className="absolute top-[20px] right-[20px] bg-white h-[32px] w-[32px] flex items-center justify-center  rounded-full group-hover:bg-lightGreen transition-all duration-500   "><FontAwesomeIcon icon={faHeart} className="group-hover:text-white" /></span>
                             </div>
@@ -105,7 +105,7 @@ const TrendingProducts = () => {
                             </div>
 
                         </div>
-                        <div className="relative bg-grayColor md:w-[31.55%] w-[100%]  flex flex-col items-center col md:items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
+                        <div className="relative bg-grayColor md:w-[48%] lg:w-[31.3%] sm:w-[47%] w-[100%]  flex flex-col items-center col md:items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
                             <div>
                                 <span className="absolute top-[20px] right-[20px] bg-white h-[32px] w-[32px] flex items-center justify-center  rounded-full group-hover:bg-lightGreen transition-all duration-500   "><FontAwesomeIcon icon={faHeart} className="group-hover:text-white" /></span>
                             </div>
@@ -133,7 +133,7 @@ const TrendingProducts = () => {
                             </div>
 
                         </div>
-                        <div className="relative bg-grayColor md:w-[31.55%]  w-[100%]  flex  flex-col items-center col md:items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
+                        <div className="relative bg-grayColor md:w-[48%] lg:w-[31.3%] sm:w-[47%] w-[100%]  flex  flex-col items-center col md:items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
                             <div>
                                 <span className="absolute top-[20px] right-[20px] bg-white h-[32px] w-[32px] flex items-center justify-center  rounded-full group-hover:bg-lightGreen transition-all duration-500   "><FontAwesomeIcon icon={faHeart} className="group-hover:text-white" /></span>
                             </div>
@@ -161,7 +161,7 @@ const TrendingProducts = () => {
                             </div>
 
                         </div>
-                        <div className="relative bg-grayColor md:w-[31.55%]  w-[100%]   flex flex-col items-center col md:items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
+                        <div className="relative bg-grayColor md:w-[48%] lg:w-[31.3%] sm:w-[47%] w-[100%]   flex flex-col items-center col md:items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
                             <div>
                                 <span className="absolute top-[20px] right-[20px] bg-white h-[32px] w-[32px] flex items-center justify-center  rounded-full group-hover:bg-lightGreen transition-all duration-500   "><FontAwesomeIcon icon={faHeart} className="group-hover:text-white" /></span>
                             </div>
