@@ -7,6 +7,8 @@
 @layer components{
   .custom_container{
     @apply mx-auto;
-    width: 1140px;
+    max-width: 1140px;
+    padding-left: 15px;
+    padding: right 15px;
   }
 }

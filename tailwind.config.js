@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        blue: "#eef7fc",
+        blue: "#f6fafb",
         primary: "#9fcb22",
         green: "#14462e",
         gray: "#F1F3F0",
@@ -13,10 +13,12 @@ export default {
         lightGreen: "#abdb23",
         grayColor: "#f6fafb",
         yellowColor: "#fccc42",
+        yellow: "#fffc01",
+        darkGray: "#6c6c6c",
       },
       fontFamily: {
-        barlow: "Barlow",
-        jost: "jost",
+        barlow: ["Barlow"],
+        jost: ["jost"],
       },
     },
   },
