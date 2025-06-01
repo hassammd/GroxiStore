@@ -1,8 +1,11 @@
 import AboutUsSection from "../Components/AboutUSSection"
+import BrandSection from "../Components/BrandsSection"
 import CategorySection from "../Components/categorySection"
 import DiscountBanner from "../Components/DiscountBanner"
+import FeaturedProductsSection from "../Components/FeaturedProductsSection"
 import FeatureSection from "../Components/FeatureSection"
 import Hero from "../Components/Hero"
+import Testimonials from "../Components/Testimonials"
 import TrendingProducts from "../Components/TrendingProducts"
 
 const Home = () => {
@@ -15,7 +18,10 @@ const Home = () => {
             <CategorySection />
             <TrendingProducts />
             <AboutUsSection />
-            {/* <FeatureSection /> */}
+            <FeatureSection />
+            <FeaturedProductsSection />
+            <Testimonials />
+            <BrandSection />
             {/* <DiscountBanner /> */}
 
         </>

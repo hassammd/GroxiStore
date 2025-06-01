@@ -1,31 +1,42 @@
-import { faHeart, faStar } from "@fortawesome/free-solid-svg-icons"
-import trendhome1 from "/images/trend-home1.png"
-import trendhome2 from "/images/trend-home2.png"
-import trendhome3 from "/images/trend-home3.png"
-import trendhome4 from "/images/trend-home4.png"
-import trendhome5 from "/images/trend-home5.png"
-import trendhome6 from "/images/trend-home6.png"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import broccoli from "/images/broccoli.png"
-const TrendingProducts = () => {
-    return (
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faHeart, faStar } from "@fortawesome/free-solid-svg-icons"
+import seller1 from "/images/seller1.png"
+import seller2 from "/images/seller2.png"
+import seller3 from "/images/seller3.png"
+import seller4 from "/images/seller4.png"
+import seller5 from "/images/seller5.png"
+import seller6 from "/images/seller6.png"
+
+const FeaturedProductsSection = () => {
+    return (
         <>
 
-            <section className="md:pt-[100px] pb-[100px]">
+            <section className="bg-blue pt-[40px] pb-[40px] md:pt-[100px] md:pb-[100px]">
+
                 <div className="custom_container">
-                    <span className="text-[22px] font-semibold text-lightGreen">Most Popular</span>
-                    <h3 className="md:text-[45px] text-[26px] font-bold leading-[49px] mb-[45px]">Trending Products</h3>
+                    <span className="text-[22px] font-semibold text-lightGreen">Best Sellers</span>
+                    <h3 className="md:text-[45px] text-[26px] font-bold leading-[49px] md:mb-[45px] mb-[25px]">Featured Products</h3>
+                    <div>
+                        <ul className="flex items-center justify-center md:gap-12 gap-6 md:text-[23px] text-[18px] font-semibold mb-[50px] cursor-pointer ">
+                            <li className="hover:text-lightGreen">All</li>
+                            <li className="hover:text-lightGreen">Fruits</li>
+                            <li className="hover:text-lightGreen">Health</li>
+                            <li className="hover:text-lightGreen">Meat</li>
+                            <li className="hover:text-lightGreen">Dairy</li>
+                        </ul>
+                    </div>
                     <div className="flex flex-wrap gap-[30px]  w-full justify-center md:justify-start ">
 
 
-                        <div className="relative bg-grayColor md:w-[48%] lg:w-[31.3%] sm:w-[47%] w-[100%]  flex flex-col   items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
+
+                        <div className="relative bg-white md:w-[48%] lg:w-[31.5%] sm:w-[47%] w-[100%]  flex flex-col   items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
                             <div>
                                 <span className="absolute top-[20px] right-[20px] bg-white h-[32px] w-[32px] flex items-center justify-center  rounded-full group-hover:bg-lightGreen transition-all duration-500   "><FontAwesomeIcon icon={faHeart} className="group-hover:text-white" /></span>
                             </div>
                             <figure className="h-[224px]">
 
-                                <img src={trendhome1} alt="" className="mb-12 h-auto" />
+                                <img src={seller1} alt="" className="mb-12 h-auto" />
                             </figure>
                             <div className="flex flex-col gap-4">
                                 <div>
@@ -48,13 +59,13 @@ const TrendingProducts = () => {
                             </div>
 
                         </div>
-                        <div className="relative bg-grayColor md:w-[48%] lg:w-[31.3%] sm:w-[47%] w-[100%]   flex  flex-col  items-center col md:items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
+                        <div className="relative bg-white md:w-[48%] lg:w-[31.5%] sm:w-[47%] w-[100%]   flex  flex-col  items-center col md:items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
                             <div>
                                 <span className="absolute top-[20px] right-[20px] bg-white h-[32px] w-[32px] flex items-center justify-center  rounded-full group-hover:bg-lightGreen transition-all duration-500   "><FontAwesomeIcon icon={faHeart} className="group-hover:text-white" /></span>
                             </div>
                             <figure className="h-[224px]">
 
-                                <img src={trendhome3} alt="" className="mb-12" />
+                                <img src={seller2} alt="" className="mb-12" />
                             </figure>
                             <div className="flex flex-col gap-4">
                                 <div>
@@ -77,12 +88,12 @@ const TrendingProducts = () => {
                             </div>
 
                         </div>
-                        <div className="relative bg-grayColor md:w-[48%] lg:w-[31.3%] sm:w-[47%] w-[100%]   flex  flex-col  items-center col md:items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
+                        <div className="relative bg-white md:w-[48%] lg:w-[31.5%] sm:w-[47%] w-[100%]   flex  flex-col  items-center col md:items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
                             <div>
                                 <span className="absolute top-[20px] right-[20px] bg-white h-[32px] w-[32px] flex items-center justify-center  rounded-full group-hover:bg-lightGreen transition-all duration-500   "><FontAwesomeIcon icon={faHeart} className="group-hover:text-white" /></span>
                             </div>
                             <figure className="h-[224px]">
-                                <img src={trendhome2} alt="" className="mb-12" />
+                                <img src={seller3} alt="" className="mb-12" />
                             </figure>
                             <div className="flex flex-col gap-4">
                                 <div>
@@ -105,12 +116,12 @@ const TrendingProducts = () => {
                             </div>
 
                         </div>
-                        <div className="relative bg-grayColor md:w-[48%] lg:w-[31.3%] sm:w-[47%] w-[100%]  flex flex-col items-center col md:items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
+                        <div className="relative bg-white md:w-[48%] lg:w-[31.5%] sm:w-[47%] w-[100%]  flex flex-col items-center col md:items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
                             <div>
                                 <span className="absolute top-[20px] right-[20px] bg-white h-[32px] w-[32px] flex items-center justify-center  rounded-full group-hover:bg-lightGreen transition-all duration-500   "><FontAwesomeIcon icon={faHeart} className="group-hover:text-white" /></span>
                             </div>
                             <figure className="h-[224px]">
-                                <img src={trendhome4} alt="" className="mb-12" />
+                                <img src={seller4} alt="" className="mb-12" />
                             </figure>
                             <div className="flex flex-col gap-4">
                                 <div>
@@ -133,12 +144,12 @@ const TrendingProducts = () => {
                             </div>
 
                         </div>
-                        <div className="relative bg-grayColor md:w-[48%] lg:w-[31.3%] sm:w-[47%] w-[100%]  flex  flex-col items-center col md:items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
+                        <div className="relative bg-white md:w-[48%] lg:w-[31.5%] sm:w-[47%] w-[100%]  flex  flex-col items-center col md:items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
                             <div>
                                 <span className="absolute top-[20px] right-[20px] bg-white h-[32px] w-[32px] flex items-center justify-center  rounded-full group-hover:bg-lightGreen transition-all duration-500   "><FontAwesomeIcon icon={faHeart} className="group-hover:text-white" /></span>
                             </div>
                             <figure className="h-[224px]">
-                                <img src={trendhome5} alt="" className="mb-12" />
+                                <img src={seller5} alt="" className="mb-12" />
                             </figure>
                             <div className="flex flex-col gap-4">
                                 <div>
@@ -161,12 +172,12 @@ const TrendingProducts = () => {
                             </div>
 
                         </div>
-                        <div className="relative bg-grayColor md:w-[48%] lg:w-[31.3%] sm:w-[47%] w-[100%]   flex flex-col items-center col md:items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
+                        <div className="relative bg-white md:w-[48%] lg:w-[31.5%] sm:w-[47%] w-[100%]   flex flex-col items-center col md:items-center pt-[65px] pb-[65px] pl-[50px] pr-[50px] border border-transparent hover:border hover:border-lightGreen group ">
                             <div>
                                 <span className="absolute top-[20px] right-[20px] bg-white h-[32px] w-[32px] flex items-center justify-center  rounded-full group-hover:bg-lightGreen transition-all duration-500   "><FontAwesomeIcon icon={faHeart} className="group-hover:text-white" /></span>
                             </div>
                             <figure className="h-[224px]">
-                                <img src={trendhome6} alt="" className="mb-12" />
+                                <img src={seller6} alt="" className="mb-12" />
                             </figure>
                             <div className="flex flex-col gap-4">
                                 <div>
@@ -191,9 +202,12 @@ const TrendingProducts = () => {
                         </div>
 
                     </div>
+
                 </div>
-            </section >
+            </section>
+
         </>
     )
 }
-export default TrendingProducts
+
+export default FeaturedProductsSection
