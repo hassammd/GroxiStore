@@ -1,4 +1,4 @@
-import AboutUsSection from "../Components/AboutUSSection"
+import AboutUsSection from ""
 import BrandSection from "../Components/BrandsSection"
 import CategorySection from "../Components/categorySection"
 import DiscountBanner from "../Components/DiscountBanner"
