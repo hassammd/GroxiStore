@@ -7,6 +7,7 @@ export default {
         blue: "#f6fafb",
         primary: "#9fcb22",
         green: "#14462e",
+        greenFamily: "#6ea68b",
         gray: "#F1F3F0",
         PaleRobin: "#91ddd8",
         orange: "#f9901e",

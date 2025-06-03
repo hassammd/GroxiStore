@@ -6,7 +6,7 @@ const BrandSection = () => {
     return (
         <>
 
-            <section className='md:pb-[100px]'>
+            <section className=' md:pb-[240px]'>
 
                 <div className="custom_container">
 
