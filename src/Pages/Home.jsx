@@ -9,10 +9,12 @@ import Footer from "../Components/Footer"
 import Hero from "../Components/Hero"
 import Testimonials from "../Components/Testimonials"
 import TrendingProducts from "../Components/TrendingProducts"
+import Cart from "./Cart"
 
 const Home = () => {
     return (
         <>
+
 
 
 
@@ -25,6 +27,7 @@ const Home = () => {
             <Testimonials />
             <BrandSection />
             <Footer />
+            <Cart />
             {/* <DiscountBanner /> */}
 
         </>
