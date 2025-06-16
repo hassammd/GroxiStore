@@ -5,7 +5,7 @@ import bannerImage from "/images/banner-img.png"
 const Hero = () => {
     return (
         <>
-            <section className="relative bg-gray w-full pt-[120px] pb-0   pl-5 pr-5">
+            <section className="relative bg-gray w-full pt-[100px] pb-0   pl-5 pr-5">
                 <div className="hidden md:block">
                     <img src={bannerLeftTop} alt="" className="absolute top-0 left-0" />
                 </div>
@@ -22,6 +22,7 @@ const Hero = () => {
                                     velit esse cillum dolorepxu fugiat nulla pariatur. </p>
                                 <div className="flex gap-4 md:justify-start justify-center">
                                     <button className="font-jost uppercase md:text-[16px] text-[14px]  bg-primary md:pt-[14px] md:pb-[14px] md:pl-[34px] md:pr-[34px] pt-[11px] pl-[30px] pb-[11px] pr-[30px]  text-white">Shop now</button>
+                                 
                                     <button className="font-jost uppercase md:text-[16px] text-[14px]  bg-green md:pt-[14px] md:pb-[14px] md:pl-[34px] md:pr-[34px] pt-[11px] pl-[30px] pb-[11px] pr-[30px]  text-white">Read More</button>
 
                                 </div>

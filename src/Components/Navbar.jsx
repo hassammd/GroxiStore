@@ -29,7 +29,7 @@ const Navbar = () => {
                             <ul className="flex gap-6">
                                 <Link to={"/"}><li className="text-[20px] font-jost hover:text-lightGreen cursor-pointer transition ease-out duration-300">Home</li>
                                 </Link>
-                                <li className="text-[20px] font-jost hover:text-lightGreen cursor-pointer transition ease-out duration-300 " > About</li>
+                                <Link to={"about"}><li className="text-[20px] font-jost hover:text-lightGreen cursor-pointer transition ease-out duration-300 " > About</li></Link>
                                 <li className="text-[20px] font-jost hover:text-lightGreen cursor-pointer transition ease-out duration-300 " >Shop</li>
                                 <li className="text-[20px] font-jost hover:text-lightGreen cursor-pointer transition ease-out duration-300 " >Pages</li>
                                 <li className="text-[20px] font-jost hover:text-lightGreen cursor-pointer transition ease-out duration-300 " >Blog</li>

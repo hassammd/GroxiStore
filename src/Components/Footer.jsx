@@ -12,6 +12,9 @@ const Footer = () => {
                         <div>
                             <img src={blogfooter} alt="" />
 
+
+
+
                         </div>
                     </div>
 

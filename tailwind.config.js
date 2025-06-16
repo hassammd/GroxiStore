@@ -16,6 +16,7 @@ export default {
         yellowColor: "#fccc42",
         yellow: "#fffc01",
         darkGray: "#6c6c6c",
+        lightGray: "#ddd",
       },
       fontFamily: {
         barlow: ["Barlow"],
