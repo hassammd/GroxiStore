@@ -30,10 +30,14 @@ const Navbar = () => {
                                 <Link to={"/"}><li className="text-[20px] font-jost hover:text-lightGreen cursor-pointer transition ease-out duration-300">Home</li>
                                 </Link>
                                 <Link to={"about"}><li className="text-[20px] font-jost hover:text-lightGreen cursor-pointer transition ease-out duration-300 " > About</li></Link>
-                                <li className="text-[20px] font-jost hover:text-lightGreen cursor-pointer transition ease-out duration-300 " >Shop</li>
-                                <li className="text-[20px] font-jost hover:text-lightGreen cursor-pointer transition ease-out duration-300 " >Pages</li>
+
+
                                 <li className="text-[20px] font-jost hover:text-lightGreen cursor-pointer transition ease-out duration-300 " >Blog</li>
-                                <li className="text-[20px] font-jost hover:text-lightGreen cursor-pointer transition ease-out duration-300 " >Contact</li>
+
+                                <Link to={"contact"}>
+
+                                    <li className="text-[20px] font-jost hover:text-lightGreen cursor-pointer transition ease-out duration-300 " >Contact</li>
+                                </Link>
                             </ul>
                         </div>
 
@@ -42,8 +46,10 @@ const Navbar = () => {
 
 
                                 <li className="bg-white  hover:bg-green transition ease-in-out duration-500 hover:cursor-pointer group h-[42px] w-[42px] rounded-full flex items-center justify-center"> <FontAwesomeIcon icon={faMagnifyingGlass} className="text-primary  group-hover:text-white transition-all duration-700" /> </li>
+                                <Link to={"checkout"}>
 
-                                <li className="bg-white  hover:bg-green transition-all duration-500 hover:cursor-pointer group h-[42px] w-[42px] rounded-full flex items-center justify-center"><FontAwesomeIcon icon={faUser} className="text-primary group-hover:text-white transition-all duration-700" /></li>
+                                    <li className="bg-white  hover:bg-green transition-all duration-500 hover:cursor-pointer group h-[42px] w-[42px] rounded-full flex items-center justify-center"><FontAwesomeIcon icon={faUser} className="text-primary group-hover:text-white transition-all duration-700" /></li>
+                                </Link>
                                 <li className=" bg-white  hover:bg-green transition-all duration-500 hover:cursor-pointer group h-[42px] w-[42px] rounded-full flex items-center justify-center"><FontAwesomeIcon icon={faHeart} className="text-primary group-hover:text-white transition-all duration-700" /></li>
                                 <Link to="/cart">    <li className="bg-white  hover:bg-green transition-all duration-500 hover:cursor-pointer group h-[42px] w-[42px] rounded-full flex items-center justify-center"><FontAwesomeIcon icon={faCartShopping} className="text-primary group-hover:text-white transition-all duration-700" /></li>
                                 </Link>

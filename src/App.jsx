@@ -8,6 +8,8 @@ import { Outlet, Route, Routes } from 'react-router-dom'
 import Layout from './Pages/Layout'
 import Cart from './Pages/Cart'
 import About from './Pages/About'
+import Contact from './Pages/Contact'
+import CheckOut from './Pages/CheckOut'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +25,8 @@ function App() {
           <Route index element={<Home />} />
           <Route path='cart' element={<Cart />} />
           <Route path='about' element={<About />} />
+          <Route path='contact' element={<Contact />} />
+          <Route path='checkout' element={<CheckOut />} />
 
 
 

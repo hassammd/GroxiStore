@@ -22,6 +22,10 @@ export default {
         barlow: ["Barlow"],
         jost: ["jost"],
       },
+      boxShadow: {
+        focusGlow:
+          "inset 0 1px 1px rgb(20 70 46 / 8%), 0 0 8px rgb(159 203 34 / 60%);",
+      },
     },
   },
   plugins: [],

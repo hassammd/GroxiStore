@@ -27,7 +27,7 @@ const Home = () => {
             <Testimonials />
             <BrandSection />
             <Footer />
-            <Cart />
+
             {/* <DiscountBanner /> */}
 
         </>
