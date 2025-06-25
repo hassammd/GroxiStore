@@ -1,5 +1,5 @@
 
-import AboutUsSection from "../Components/AboutUSSection"
+import AboutUsSection from "../Components/AboutUsSection"
 import BrandSection from "../Components/BrandsSection"
 import CategorySection from "../Components/categorySection"
 // import DiscountBanner from "../Components/DiscountBanner"
