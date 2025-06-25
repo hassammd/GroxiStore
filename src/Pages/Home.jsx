@@ -1,7 +1,8 @@
 
 import AboutUsSection from "../Components/AboutUsSection"
 import BrandSection from "../Components/BrandsSection"
-import CategorySection from "../Components/categorySection"
+import CategorySection from "../Components/CategorySection"
+
 // import DiscountBanner from "../Components/DiscountBanner"
 import FeaturedProductsSection from "../Components/FeaturedProductsSection"
 import FeatureSection from "../Components/FeatureSection"
